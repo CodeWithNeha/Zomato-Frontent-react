@@ -12,7 +12,7 @@ export default function Home() {
           </div>
           <div id = "parent" className="col-6 col-md-6">
                 <img className = "heropat" src={pat} alt="" />
-                <img className = "herosh"  src={shape}alt="" />
+                <img className = "herosh"  src={shape} alt="" />
                 <img className = "hero"  src={her} alt="" />
                 </div>
         </div>
