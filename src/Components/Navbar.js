@@ -17,17 +17,17 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Products</a>
+          <a className="nav-link" aria-current="page" href="/">Products</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Restaurants</a>
+          <a className="nav-link" href="/">Restaurants</a>
         </li>
       
         <li className="nav-item">
-          <a className="nav-link " href="#" tabindex="-1">Pricing</a>
+          <a className="nav-link " href="/" tabIndex="-1">Pricing</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" tabindex="-1">About us</a>
+          <a className="nav-link" href="/" tabIndex="-1">About us</a>
         </li>
       </ul>
       <form className="d-flex">
