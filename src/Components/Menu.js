@@ -3,7 +3,7 @@ import card2Img from '../assets/pizza.jpg'
 import card1Img from '../assets/burger.jpg'
 import card3Img from '../assets/iceCream.jpg'
 
-export default function Menu() {
+export default function Menu(props) {
     const myStyle = {color: "#ff0000"}
 
     const myStyle2 = {width: "18rem"}
@@ -13,7 +13,7 @@ export default function Menu() {
     <div className = "shape">
       
     </div>
-    <h1 className="shapeText tw-bold">Explore our menu</h1>
+    <h1 className="shapeText tw-bold">{props.explore}</h1>
     <div id = "card1" className="card" style={myStyle2} >
       <img className="card-img-top" src={card1Img} alt="Card image cap" />
       <div className="card-body">

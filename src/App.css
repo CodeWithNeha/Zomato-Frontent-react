@@ -165,3 +165,39 @@ h2{
     width:700px;
     height: 50px;
 }
+.ordText{
+    margin-top: 250px;
+    margin-left: 150px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40pt;
+    font-weight: bold;
+}
+.rest1{
+    padding: 0px 10px 10px 0x;
+    border-radius: 5px;
+    margin-top: 150px;
+    width:220px;
+    height:170px;
+}
+.rest2{
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    margin-top:100px;
+    width:320px;
+    height:220px;
+}
+.rest3{
+    padding: 10px 10px 0px 0px;
+    border-radius: 5px;
+    width:320px;
+    height:220px;
+}
+.rest4{
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    width:220px;
+    height:170px;
+    margin-bottom: 30px;
+}
+
