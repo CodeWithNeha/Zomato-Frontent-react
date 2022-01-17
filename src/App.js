@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './Components/Footer';
 import Form from './Components/Form';
 import Home from './Components/Home';
 import Menu from './Components/Menu';
@@ -17,6 +18,7 @@ function App() {
     <Menu explore="Explore our menu"/>
     <Restaurants content="Order From 100s of restaurants" />
     <Form text = "Stay Updated"/>
+    <Footer text = "When a man's stomach is full it makes no difference whether he is rich or poor."/>
     </>
   );
 }
