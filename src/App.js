@@ -1,5 +1,6 @@
 
 import './App.css';
+import Form from './Components/Form';
 import Home from './Components/Home';
 import Menu from './Components/Menu';
 
@@ -15,6 +16,7 @@ function App() {
     <Video content="Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene."/> 
     <Menu explore="Explore our menu"/>
     <Restaurants content="Order From 100s of restaurants" />
+    <Form text = "Stay Updated"/>
     </>
   );
 }
