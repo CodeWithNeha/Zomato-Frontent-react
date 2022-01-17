@@ -87,3 +87,81 @@ justify-content: center;
     margin-right: 300px;
     text-align: center;
 }
+.shape{
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 1120px;
+	height: 650px;
+	transform: skew(0,-6deg);
+	background: #cc0000;
+    
+    
+}
+.sha{
+    position: relative;
+   
+}
+.shapeText{
+    top: -20px;
+    left:10px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 500px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#card1{
+    top: 140px;
+    position: absolute;
+    margin-left: 200px;
+}
+#card2{
+    margin-left: 570px;
+    top:115px;
+    position: absolute;
+}
+#card3{
+    margin-left: 930px;
+    top:140px;
+    position: absolute;
+}
+
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+h2{
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+.viewText{
+    left:10px;
+    position: absolute;
+    margin-top: -50px;
+    align-content: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #ebf2ff;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    width:1000px;
+    height: 50px;
+    margin-left: 300px;
+
+}
+.view{
+    font-size: 20pt;
+    margin-left: 300px;
+    margin-top: 5px;
+    width:400px;
+    height: 50px;
+}
+.viewText:hover{
+    color:palevioletred;
+    background-color: white;
+    width:700px;
+    height: 50px;
+}
